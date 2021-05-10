@@ -3,6 +3,7 @@
 #### Install and configure node and npm on  the computer
 ```bash
 git clone https://github.com/JPRMohnish/Vaccinator.git
+npm install -all
 cd Vaccinator
 npm link
 vaccinator <age> <pincode> <days>
