@@ -8,6 +8,7 @@ cd Vaccinator
 npm link
 vaccinator <age> <pincode> <days>
 or 
+chmod +x Vaccinator
 ./Vaccinator <age> <pincode> <days>
 ```
 #### you will get output of available slots based on the arguments provided on CLI.
