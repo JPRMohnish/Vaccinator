@@ -1,0 +1,29 @@
+{
+  "name": "vaccinator",
+  "version": "1.0.1",
+  "description": "A vaccine checking cli tool",
+  "main": "Vaccinator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^3.0.0",
+    "moment": "^2.29.1",
+    "node-cron": "^3.0.0",
+    "save": "^2.4.0"
+  },
+  "bin": {
+    "vaccinator": "/Vaccinator",
+    "vaccinator/vaccinator": "/Vaccinator"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vaccinator",
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC"
+}
